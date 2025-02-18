@@ -12,3 +12,22 @@
 -keep class com.facebook.react.turbomodule.** { *; }
 
 # Add any project specific keep options here:
+-keep class  us.zoom.**{*;}
+-keep class  com.zipow.**{*;}
+-keep class  us.zipow.**{*;}
+-keep class  org.webrtc.**{*;}
+-keep class  us.google.protobuf.**{*;}
+-keep class  com.google.crypto.tink.**{*;}
+-keep class  androidx.security.crypto.**{*;}
+-dontwarn com.android.**
+-dontwarn com.google.**
+-dontwarn com.microsoft.**
+-dontwarn com.zipow.**
+-dontwarn javax.lang.**
+-dontwarn kotlin.jvm.internal.**
+-dontwarn kotlinx.parcelize.**
+-dontwarn org.**
+-dontwarn us.zoom.**
+-dontwarn xcrash.**
+-dontwarn java.awt.**
+-dontwarn javax.swing.**
